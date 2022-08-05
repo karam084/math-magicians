@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 
-// eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends Component {
   render() {
     return (
@@ -12,13 +11,13 @@ class Calculator extends Component {
           <input type="text" class="calculator-screen z-depth-1" value="0" disabled />
 
           <div class="calculator-keys">
-            <button type="button" class="all-clear function btn btn-danger btn-sm" value="all-clear">AC</button>
-            <button type="button" class="operator btn btn-info" value="+/-">+/-</button>
-            <button type="button" class="operator btn btn-info" value="%">%</button>
-            <button type="button" class="operator btn btn-info" value="/">&divide;</button>
-            <button type="button" class="operator btn btn-info" value="*">&times;</button>
-            <button type="button" class="operator btn btn-info" value="-">-</button>
-            <button type="button" class="operator btn btn-info" value="+">+</button>
+            <button type="button" class="all-clear function btn btn-light btn-sm" value="all-clear">AC</button>
+            <button type="button" class="operator btn btn-light" value="+/-">+/-</button>
+            <button type="button" class="operator btn btn-light" value="%">%</button>
+            <button type="button" class="devi operator btn btn-info" value="/">&divide;</button>
+            <button type="button" class="operator mult operations btn btn-info" value="*">&times;</button>
+            <button type="button" class="operator muns operations btn btn-info" value="-">-</button>
+            <button type="button" class="operator add operations btn btn-info" value="+">+</button>
             <button type="button" class="equal-sign operator btn btn-warning" value="=">=</button>
 
             <button type="button" value="7" class="btn btn-light waves-effect">7</button>
@@ -37,7 +36,7 @@ class Calculator extends Component {
 
 
             <button type="button" value="0" class="zerocal btn btn-light waves-effect ">0</button>
-            <button type="button" class="decimal function btn btn-secondary" value=".">.</button>
+            <button type="button" class="decimal function btn btn-light" value=".">.</button>
 
           </div>
         </div>

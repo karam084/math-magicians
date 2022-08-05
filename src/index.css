@@ -24,7 +24,7 @@ body {
   width: 100%;
   height: 80px;
   border: none;
-  background-color: #252525;
+  background-color: #afa6a6;
   color: #fff;
   text-align: right;
   padding-right: 20px;
@@ -38,23 +38,46 @@ button {
 }
 
 .decimal {
-  height: 98%;
-  grid-area: 8 / 4 / 6/ 5;
+  height: 4rem;
+  grid-area: 5 / 3 / 6/ 4;
 }
 
 .zerocal {
-  height: 3rem;
-  grid-area: 8/ 1 / 6/ 4;
+  height: 4rem;
+  grid-area: 5/ 1 / 5/ 3;
 }
 
 .equal-sign {
-  height: 98%;
-  grid-area: 2 / 4 / 6/ 5;
+  height: 4rem;
+  grid-area: 5 / 4 / 7/ 4;
+  background-color: rgb(230, 87, 36) !important;
 }
 
 .calculator-keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
-  padding: 20px;
+  grid-gap: 1px;
+  padding: 1px;
+}
+
+.mult {
+  height: 98%;
+  grid-area: 2 / 4 / 3/ 4;
+  background-color: rgb(230, 87, 36) !important;
+}
+
+.muns {
+  height: 98%;
+  grid-area: 3 / 4 / 3/ 4;
+  background-color: rgb(230, 87, 36) !important;
+}
+
+.add {
+  height: 98%;
+  grid-area: 4/4 / 4/ 4;
+  background-color: rgb(230, 87, 36) !important;
+}
+
+.devi {
+  background-color: rgb(230, 87, 36) !important;
 }
