@@ -1,27 +1,83 @@
 body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin-top: 25% !important;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.calculator {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+
+.calculator-screen {
+  width: 100%;
+  height: 80px;
+  border: none;
+  background-color: #afa6a6;
+  color: #fff;
+  text-align: right;
+  padding-right: 20px;
+  padding-left: 10px;
+  font-size: 4rem;
+}
+
+button {
+  height: 60px;
+  font-size: 2rem;
+}
+
+.decimal {
+  height: 4rem;
+  grid-area: 5 / 3 / 6/ 4;
+}
+
+.zerocal {
+  height: 4rem;
+  grid-area: 5/ 1 / 5/ 3;
+}
+
+.equal-sign {
+  height: 4rem;
+  grid-area: 5 / 4 / 7/ 4;
+  background-color: rgb(230, 87, 36) !important;
+}
+
+.calculator-keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1px;
+  padding: 1px;
+}
+
+.mult {
+  height: 98%;
+  grid-area: 2 / 4 / 3/ 4;
+  background-color: rgb(230, 87, 36) !important;
+}
+
+.muns {
+  height: 98%;
+  grid-area: 3 / 4 / 3/ 4;
+  background-color: rgb(230, 87, 36) !important;
+}
+
+.add {
+  height: 98%;
+  grid-area: 4/4 / 4/ 4;
+  background-color: rgb(230, 87, 36) !important;
+}
+
+.devi {
+  background-color: rgb(230, 87, 36) !important;
 }
