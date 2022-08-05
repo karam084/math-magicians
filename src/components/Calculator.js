@@ -9,7 +9,7 @@ class Calculator extends Component {
 
         <div class="calculator card">
 
-          <input type="text" class="calculator-screen z-depth-1" value="" disabled />
+          <input type="text" class="calculator-screen z-depth-1" value="0" disabled />
 
           <div class="calculator-keys">
             <button type="button" class="all-clear function btn btn-danger btn-sm" value="all-clear">AC</button>

@@ -1,5 +1,5 @@
 body {
-  margin-top: 30% !important;
+  margin-top: 25% !important;
 }
 
 *,
@@ -34,7 +34,7 @@ body {
 
 button {
   height: 60px;
-  font-size: 2rem!;
+  font-size: 2rem;
 }
 
 .decimal {
