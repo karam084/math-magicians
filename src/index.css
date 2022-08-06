@@ -81,3 +81,11 @@ button {
 .devi {
   background-color: rgb(230, 87, 36) !important;
 }
+
+.screen {
+  height: 52px;
+  background-color: #797676;
+  text-align: end;
+  font-size: 36px;
+  padding-right: 10px;
+}
