@@ -89,3 +89,56 @@ button {
   font-size: 36px;
   padding-right: 10px;
 }
+
+.navba {
+  position: absolute;
+  top: -247px;
+  right: 50px;
+}
+
+.head {
+  position: absolute;
+  top: -255px;
+}
+
+.navbar a {
+  margin-left: 16px;
+  padding: 6px;
+  border-left: 2px solid grey;
+}
+
+a.navbar-brand {
+  border-left: 0;
+}
+
+a.active {
+  border-left: 0;
+}
+
+ul li a {
+  color: blue !important;
+}
+
+.nav-item {
+  text-decoration: underline;
+}
+
+h2 {
+  position: absolute;
+  top: 150px;
+  left: 38px;
+}
+
+.par {
+  width: 90%;
+  position: absolute;
+  top: 200px;
+  left: 38px;
+}
+
+.par2 {
+  width: 90%;
+  position: absolute;
+  top: 290px;
+  left: 38px;
+}
