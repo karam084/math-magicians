@@ -11,7 +11,9 @@ function Calculator() {
   return (
 
     <div className="container my-3">
-
+      <div className='lets'>
+        <p>Let's do some math!</p>
+      </div>
       <div className="calculator card">
         <div className="screen">{state.next || state.total || 0}</div>
 
